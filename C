@@ -1,1 +1,101 @@
 #include <stdio.h>
+int main(){
+char C="y"; //comilla simple
+int a=20; //2bytes
+short e=-1 //2bytes
+
+printf("%c\n", C);
+printf("%i\n",e)
+return 0;	
+}
+#include <stdio.h>
+int main(){
+int a =23;
+float f=45.3;
+float suma=(float)a + f;
+printf("%.2f", suma);
+printf("entero%i\n floatante%.2f\n double.3f\n caracter%c",a, (float)a, (double)a, /char)a); //2f son dos decimales
+}
+
+//ciclo for
+#include <stdio.h>
+int main(){
+int contador;
+for(contador=1;contador<= 10;contador++){
+printf("%i\n",contador);
+}
+return 0;
+}
+
+//WHILE
+#include <stdio.h>
+int main(){
+int contador=1;
+while(contador<=10){
+printf("%i\n", contador);
+contador++ //para que se vaya incrementado
+}
+return 0;
+}
+#include <stdio.h>
+int main(){
+int contador=1;
+do{
+printf("%i\n",contador);
+contador++
+}while(contador<=10);
+return 0;
+
+}
+
+//BREAK AND CONTINUE
+#include <stdio.h>
+int main(){
+int num=0;
+while(num<=7){
+num++
+if(num==2){
+break; // o continue
+}
+print("%i\n", num);
+
+}
+return 0;
+}
+//SWICHT
+#include <stdio.h>
+int main(){
+int casos;
+printf("ingresa un n\n");
+scanf("%i",&casos);
+switch(){
+case 1:
+printf("elegiste primer caso\n");
+break;
+case 2:
+printf("elegiste segundo caso\n");
+break;
+case 3:
+printf("elegiste tercero caso\n");
+break;
+default:
+printf("no encontramos");
+break;
+}
+return 0;
+}
+//ARREGLOS GUARDAN DATOS Y NO CAMBIO MIENTRAS DURE EL PROGRAMA
+
+#include <stdio.h>
+int main(){
+int arreglo[4]={3,4,1,5};
+printf("%i/n", arreglo[2]); //elegimos la posicion
+
+return 0;
+}
+
+#include<time.h>
+#include<stdib.h>
+int main(){
+srand(time)
+}
